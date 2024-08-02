@@ -11,4 +11,3 @@ echo 1 | gmx pdb2gmx -f 1cta.gro -water spce -v -ignh -o unsolvated.gro
 
 # Solvate the protein
 gmx solvate -cs spc216.gro -cp unsolvated.gro -o solvated.gro -p topol.top
-
