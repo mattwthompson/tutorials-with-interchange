@@ -14,10 +14,18 @@
 | | Solvation energy | :x: |
 | Official | MD intro | :x: |
 | | Membrane protein | :x: |
+| Lemkul | Lysozyme in water | :x: |
+| | Membrane protein | :x: |
+| | Biphasic system | :x: |
+| | Protein-ligand complex | :x: |
+| | CO2 with virtual sites | :x: |
+
 
 ## Updates
 
-08-02-2024: All Gravelle tutorials fail because `Interchange.from_gromacs` does not parse GROMACS topology files referencing `.itp` files.
+09-18-2024: All Lemkul tutorials fail because `Interchange.from_gromacs` does not parse GROMACS topology files referencing `.itp` files or including virtual sites.
+
+09-04-2024: All Gravelle tutorials fail because `Interchange.from_gromacs` does not parse GROMACS topology files referencing `.itp` files.
 
 08-02-2024: All "official" GROMACS tutorials fail because `Interchange.from_gromacs` does not parse GROMACS topology files referencing `.itp` files.
 
