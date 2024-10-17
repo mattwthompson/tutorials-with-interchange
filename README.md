@@ -20,8 +20,18 @@
 | | Protein-ligand complex | :x: |
 | | CO2 with virtual sites | :x: |
 
+### OpenMM
+
+| Group | System | Status |
+|--|--|--|
+| Official | 1o9s_tip5p | :x: |
+| | First simulation | :white_check_mark: |
+| | hsp90 | :x: |
+| | Protein in water | :warning: |
 
 ## Updates
+
+10-17-2024: OpenMM cookbook tutorials have mixed results, unable to load systems with virtual sites or properly processing bound metals.
 
 09-18-2024: All Lemkul tutorials fail because `Interchange.from_gromacs` does not parse GROMACS topology files referencing `.itp` files or including virtual sites.
 
