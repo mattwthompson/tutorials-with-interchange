@@ -29,7 +29,17 @@
 | | hsp90 | :x: |
 | | Protein in water | :warning: |
 
+### LAMMPS
+
+| Group | System | Status |
+|--|--|--|
+| Gravelle | Lennard-jones fluid | :x: |
+| | Pulling on a carbon nanotube | :x: |
+| | Water adsorption in silica | :x: |
+
 ## Updates
+
+10-21-2024: LAMMPS tutorials fail because there is no LAMMPS reader in Interchange.
 
 10-17-2024: OpenMM cookbook tutorials have mixed results, unable to load systems with virtual sites or properly processing bound metals.
 
