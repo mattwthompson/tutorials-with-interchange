@@ -1,0 +1,11 @@
+source leaprc.protein.ff19SB 
+source leaprc.gaff2
+source leaprc.water.opc 
+loadamberparams PNS-BCC.frcmod
+loadoff PNS-BCC.lib
+mol = loadpdb 1od6_clean_fix.pdb
+solvateoct mol OPCBOX 8.0
+addionsrand mol Cl- 0
+saveamberparm mol 1od6-bcc.prmtop 1od6-bcc.inpcrd
+savepdb mol 1od6-bcc.pdb
+quit

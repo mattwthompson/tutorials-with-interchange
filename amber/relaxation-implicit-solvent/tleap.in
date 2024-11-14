@@ -1,0 +1,5 @@
+source leaprc.protein.ff14SBonlysc
+tc5b = loadpdb 1l2y.amber.pdb
+set default pbradii mbondi3
+saveamberparm tc5b tc5b.1l2y.parm7 tc5b.1l2y.rst7
+quit

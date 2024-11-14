@@ -1,0 +1,5 @@
+source leaprc.protein.ff14SB
+source leaprc.interface_v1_5
+com = loadpdb pro_metal_adjust.pdb
+saveamberparm com pro_metal.prmtop pro_metal.inpcrd
+quit

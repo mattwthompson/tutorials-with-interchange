@@ -1,0 +1,7 @@
+source leaprc.mimetic.ff15ipq
+source leaprc.water.spceb
+mol = sequence { ACE ALA B3A ALA NME }
+solvateOct mol SPCBOX 12.0
+saveAmberParm mol B3A_solv.prmtop B3A_solv.inpcrd
+savePdb mol B3A_solv.pdb
+quit

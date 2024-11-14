@@ -1,0 +1,4 @@
+source leaprc.protein.ff14SB
+mol = sequence {ACE ALA ALA ALA ALA ALA ALA ALA NME}
+savepdb mol ace-ala7-nme.pdb
+quit
